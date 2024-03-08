@@ -68,6 +68,6 @@ spotify_rep = DadosRepositorios('spotify')
 ling_mais_usadas_spotify = spotify_rep.cria_df_linguagens()
 
 # Salvando os dados
-ling_mais_usadas_amzn.to_csv('dados/linguagens_amzn.csv')
-ling_mais_usadas_netflix.to_csv('dados/linguagens_netflix.csv')
-ling_mais_usadas_spotify.to_csv('dados/linguagens_spotify.csv')
+ling_mais_usadas_amzn.to_csv('data_processed/linguagens_amzn.csv')
+ling_mais_usadas_netflix.to_csv('data_processed/linguagens_netflix.csv')
+ling_mais_usadas_spotify.to_csv('data_processed/linguagens_spotify.csv')
